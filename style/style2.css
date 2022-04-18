@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li , a ,h3, p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #edf0f1;
+    text-decoration: none;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10% ;
+    background-color: #284b63;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+display: inline-block;
+padding: 0px 20px;
+}
+
+.main_content {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: inherit;
+    height: 700px;
+    background-color: white;
+    align-content: center;
+}
+
+.tasks_table {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+th {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 52px;
+    color: #edf0f1;
+    background-color: #838383;
+    text-align: center;
+}
+
+td {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    color: black;
+    background-color: #c4c4c4;
+    text-align: center;
+}
+
+.input {
+    width: auto;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.checkBox {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.button {
+    display: inline-block;
+    color: white;
+    background: #549DA0;
+    border: none;
+    border-radius: 5px;
+    margin-left: 46%;
+    margin-bottom: 10%;
+}
+
+footer {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 10px 10px ;
+    background-color: #868686;
+
+}
+
+.footer_links {
+    list-style: none;
+}
+
+.footer_links li {
+display: inline-block;
+padding: 0px 20px;
+font-size: 12px;
+}
+
+.footer_links li a {
+display: inline-block;
+padding: 0px 20px;
+font-size: 14px;
+}
+
+.contact li{
+    list-style: none;
+    font-size: 12px;
+}
+
+.copy_right li{
+    list-style: none;
+    font-size: 12px;
+}
+
