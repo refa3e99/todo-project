@@ -42,38 +42,82 @@ display: inline-block;
 padding: 0px 20px;
 }
 
-.main_content {
-    justify-content: space-between;
+.my_info {
+    justify-content: center;
     display: flex;
     align-items: center;
     width: inherit;
-    height: 700px;
     background-color: white;
     align-content: center;
 }
 
-.tasks_table {
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+.submit_info {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: inherit;
+    background-color: white;
+    align-content: center;
+    margin-bottom: 40px;
 }
 
-th {
+.container {
     font-family: "Montserrat", sans-serif;
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    background-color: #babcbd;
+    border-radius: 5px;
+}
+
+.profile-pic {
+    width: 278px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.my_info span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.container .title {
+    font-size: 25px;
     font-weight: 500;
-    font-size: 52px;
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2 - 20px);
+    margin: 20px 0px 20px 0px;
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.submit_button {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    height: 45px;
+    width: 100%;
     color: #edf0f1;
-    background-color: #838383;
-    text-align: center;
-}
-
-td {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 42px;
-    color: black;
-    background-color: #c4c4c4;
-    text-align: center;
+    background-color: #284b63;
+    border-radius: 5px;
 }
 
 .input {
@@ -82,21 +126,6 @@ td {
     margin-bottom: 20px;
 }
 
-.checkBox {
-    width: 20px;
-    height: 20px;
-    margin-left: 10px;
-}
-
-.button {
-    display: inline-block;
-    color: white;
-    background: #549DA0;
-    border: none;
-    border-radius: 5px;
-    margin-left: 46%;
-    margin-bottom: 10%;
-}
 
 footer {
     display: flex;
