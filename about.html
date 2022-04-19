@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
 </head>
 <body>
     <header>
@@ -25,34 +25,42 @@
 
 
     <main>
-        <div class="main_content">
-            <table class="tasks_table">
-                <tr>
-                    <th>Information</th>
-                    <th>Contact Me</th>
-                </tr>
-                <tr>
-                    <td>Name : Abdulrahman Mohammed</td>
-                    <td>Name :<form><input class="input" type="text"></form></td>
-                </tr>
-                <tr>
-                    <td>Date of birth : 7th-Aug-1999</td>
-                    <td>Date of birth :<form><input class="input" type="text"></form></td>
-                </tr>
-                <tr>
-                    <td>Major : Computer Science</td>
-                    <td>Major :<form><input class="input" type="text"></form></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-
-            
-            
+        <div class="my_info">
+           <img src="./assets/profile_pic.png" alt="" class="profile-pic">
+           <span>
+               Hello my name is Abdulrahman, I'm 23 years old.<br>
+               I studied computer science.<br> 
+               I like boxing & martial arts in general,
+               I like swimming and working out.
+           </span>
         </div>
-        <a  class="button" href="#" >Submit</a>
+
+        <div class="submit_info">
+            <div class="container">
+                <div class="title">Contact Me</div>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">Full Name</span>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="text" placeholder="Enter your Email" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone Number</span>
+                            <input type="text" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Message</span>
+                            <input type="text" placeholder="type your Message" required>
+                        </div>
+                        <input type="submit" class="submit_button">
+                    </div>
+                </form>
+            </div>
+         </div>
     </main>
 
 
