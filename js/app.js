@@ -33,7 +33,7 @@ q1 = prompt("do u work?");
 
   function isValid(answer){
     while(answer != "yes" && answer != "no"){
-        answer = alert("invalid input");
+        answer = alert("invalid input, yes or no answers only");
         question1();
         break;
     }}
@@ -46,7 +46,7 @@ q1 = prompt("do u work?");
   
     function isValid(answer){
       while(answer != "yes" && answer != "no"){
-          answer = alert("invalid input");
+          answer = alert("invalid input, yes or no answers only");
           question2();
           break;
       }}
@@ -59,7 +59,7 @@ q1 = prompt("do u work?");
     
       function isValid(answer){
         while(answer != "yes" && answer != "no"){
-            answer = alert("invalid input");
+            answer = alert("invalid input, yes or no answers only");
             question3();
             break;
         }}
